@@ -26,7 +26,7 @@ require_once("database.php");
 ?>
 <body>
 
-  <h2>Daftar Mama Mahasiswa</h2>
+  <h2>Daftar Nama Mahasiswa</h2>
 
   <table>
     <tr>
@@ -39,21 +39,23 @@ require_once("database.php");
     $result = $c->query($sql);
     if ($result->num_rows > 0) 
     {
-      $drivers = array();
+      $student = array();
       $i = 0;
       while ($obj = $result->fetch_assoc()) 
       {
-        echo "Empty table.";
-      die();
        
-      }
-    } 
-    else 
-    {
+       
        echo '<tr>';
         echo '<td>' . $obj['nrp'] . '</td>';
         echo '<td>' . $obj['nama'] . '</td>';
         echo '<td>' . $obj['jurusan'] . '</td>';
+        echo'</tr>';
+      }
+    } 
+    else 
+    {
+       echo "Empty table.";
+      die();
     }
     ?>
   </table>
