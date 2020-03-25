@@ -37,7 +37,7 @@ require_once("database.php");
     <?php
     $sql = "SELECT * FROM student ORDER by name ASC";
     $result = $c->query($sql);
-    if ($result->num_rows > 0) {
+    if ($result->num_rows < 0) {
 
       $students = array();
       $i = 0;
