@@ -37,7 +37,7 @@ require_once("database.php");
     <?php
     $sql = "SELECT * FROM student ORDER by name ASC";
     $result = $c->query($sql);
-    if ($result->num_rows > 0) {
+   /* if ($result->num_rows > 0) {
 
       $drivers = array();
       $i = 0;
@@ -50,7 +50,7 @@ require_once("database.php");
     } else {
       echo "Empty table.";
       die();
-    }
+    }*/
     ?>
   </table>
 
