@@ -54,7 +54,7 @@ require_once("database.php");
 
 
 
-  <h2>DAFTAR NAMA MAHASISWA KELAS ISA KP A</h2>
+  <h2>DAFTAR NAMA MAHASISWA KELAS ISA KP A TAHUN AJARAN 2020/2021</h2>
 
 
 
