@@ -37,20 +37,24 @@ require_once("database.php");
     <?php
     $sql = "SELECT * FROM student ORDER by name ASC";
     $result = $c->query($sql);
-   /* if ($result->num_rows > 0) {
-
+    if ($result->num_rows > 0) 
+    {
       $drivers = array();
       $i = 0;
-      while ($obj = $result->fetch_assoc()) {
-        echo '<tr>';
+      while ($obj = $result->fetch_assoc()) 
+      {
+        echo "Empty table.";
+      die();
+       
+      }
+    } 
+    else 
+    {
+       echo '<tr>';
         echo '<td>' . $obj['nrp'] . '</td>';
         echo '<td>' . $obj['nama'] . '</td>';
         echo '<td>' . $obj['jurusan'] . '</td>';
-      }
-    } else {
-      echo "Empty table.";
-      die();
-    }*/
+    }
     ?>
   </table>
 
