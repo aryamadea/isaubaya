@@ -26,20 +26,20 @@ require_once("database.php");
 ?>
 <body>
 
-  <h2>Daftar Nama Mahasiswa</h2>
+  <h2>Daftar Mama Mahasiswa</h2>
 
   <table>
     <tr>
-      <th>NRP</th>
-      <th>Nama</th>
-      <th>Jurusan</th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>License</th>
     </tr>
     <?php
     $sql = "SELECT * FROM student ORDER by name ASC";
     $result = $c->query($sql);
     if ($result->num_rows > 0) {
 
-      $students = array();
+      $drivers = array();
       $i = 0;
       while ($obj = $result->fetch_assoc()) {
         echo '<tr>';
