@@ -26,7 +26,7 @@ require_once("database.php");
 ?>
 <body>
 
-  <h2>Daftar Nama Mahasiswa</h2>
+  <h2>Daftar Mama Mahasiswa</h2>
 
   <table>
     <tr>
