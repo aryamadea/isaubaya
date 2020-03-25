@@ -54,7 +54,7 @@ require_once("database.php");
 
 
 
-  <h2>Driver</h2>
+  <h2>DAFTAR NAMA MAHASISWA KELAS ISA KP A</h2>
 
 
 
@@ -62,17 +62,17 @@ require_once("database.php");
 
     <tr>
 
-      <th>nrp</th>
+      <th>NRP</th>
 
-      <th>Name</th>
+      <th>Nama</th>
 
-      <th>License</th>
+      <th>Jurusan</th>
 
     </tr>
 
     <?php
 
-    $sql = "SELECT * FROM student ORDER by name ASC";
+    $sql = "SELECT * FROM driver ORDER by name ASC";
 
     $result = $c->query($sql);
 
@@ -88,11 +88,11 @@ require_once("database.php");
 
         echo '<tr>';
 
-        echo '<td>' . $obj['nrp'] . '</td>';
+        echo '<td>' . $obj['id'] . '</td>';
 
-        echo '<td>' . $obj['nama'] . '</td>';
+        echo '<td>' . $obj['name'] . '</td>';
 
-        echo '<td>' . $obj['jurusan'] . '</td>';
+        echo '<td>' . $obj['license'] . '</td>';
 
       }
 
