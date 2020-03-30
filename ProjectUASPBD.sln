@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectUASPBD", "ProjectUASPBD\ProjectUASPBD.csproj", "{607EFB59-698A-4D02-97F9-ADE4F1EB131E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumahMakan_LIB", "RumahMakan_LIB\RumahMakan_LIB.csproj", "{107E671B-A199-47ED-972C-BCFEEE195035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607EFB59-698A-4D02-97F9-ADE4F1EB131E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607EFB59-698A-4D02-97F9-ADE4F1EB131E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607EFB59-698A-4D02-97F9-ADE4F1EB131E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607EFB59-698A-4D02-97F9-ADE4F1EB131E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107E671B-A199-47ED-972C-BCFEEE195035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107E671B-A199-47ED-972C-BCFEEE195035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107E671B-A199-47ED-972C-BCFEEE195035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107E671B-A199-47ED-972C-BCFEEE195035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD8735F2-D252-419D-8234-C2601B78AC76}
+	EndGlobalSection
+EndGlobal
